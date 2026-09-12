@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>S10SEN</title>
 </head>
 <body>
-    <h1>Hello.</h1>
-    <p>s10sen.com is online.</p>
+    <header>
+        <div class="container">
+            <nav aria-label="Primary navigation">
+                <ul>
+                    <li>
+                        <a href="/" aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <h1>S10SEN</h1>
+            <p>
+                This is a personal site designed and created by me. It is mainly for showcasing projects, writing, and things that I am learning.
+            </p>
+            <div class="hero-actions">
+                <a class="button" href="/about.html">About</a>
+                <a class="button" href="#">Projects</a>
+            </div>
+        </section>
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>s10sen.com</h3>
+                    <p>
+                        This project is my first personally hosted website. I am using GitHub for version control, Cloudflare, semantic HTML, and responsive CSS.
+                    </p>
+                    <a href="#">View Project</a>
+                </article>
+                <article class="project-card">
+                    <h3>Homelab</h3>
+                    <p>
+                        This project is a whole home networking setup. I am hosting multiple servers, and utilizing industry practices.
+                    </p>
+                    <a href="#">View Project</a>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
