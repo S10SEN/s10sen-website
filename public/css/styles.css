@@ -118,3 +118,23 @@ body {
     line-height: 1.1;
     margin: 0;
 }
+
+.about-section {
+    max-width: 48rem;
+    padding-block: 2rem;
+}
+
+.about-section + .about-section {
+    border-top: 1px solid #e5e7eb;
+}
+
+.about-section h1,
+.about-section h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    line-height: 1.7;
+    margin-block: 0 1rem;
+}
